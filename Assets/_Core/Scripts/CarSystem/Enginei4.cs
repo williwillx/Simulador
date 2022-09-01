@@ -324,17 +324,17 @@ public class Enginei4 : MonoBehaviour {
 		elements.CamshaftIntake2.transform.Rotate (new Vector3 (0, 0, CorrectedRPM/2));
 
 		elements.GearboxSecondaryShaft.transform.Rotate (new Vector3 (0, CorrectedRPM*1.47f, 0));
-		elements.GearboxPrimaryShaft.transform.Rotate(new Vector3 (0, -CorrectedRPM,0 ));
+		//elements.GearboxPrimaryShaft.transform.Rotate(new Vector3 (0, -CorrectedRPM,0 ));
 
-		elements.Gear2.transform.Rotate (new Vector3 (0,0 , -CorrectedRPM*1.47f));
-		elements.Gear3.transform.Rotate (new Vector3 (0,0 , -CorrectedRPM*1.33f));
-		elements.Gear4.transform.Rotate (new Vector3 (0,0 , -CorrectedRPM*0.9996f));
-		elements.Gear5.transform.Rotate (new Vector3 (0,0 , -CorrectedRPM*0.525f));
+		//elements.Gear2.transform.Rotate (new Vector3 (0,0 , -CorrectedRPM*1.47f));
+		//elements.Gear3.transform.Rotate (new Vector3 (0,0 , -CorrectedRPM*1.33f));
+		//elements.Gear4.transform.Rotate (new Vector3 (0,0 , -CorrectedRPM*0.9996f));
+		//elements.Gear5.transform.Rotate (new Vector3 (0,0 , -CorrectedRPM*0.525f));
 
-		elements.StarterGear1.transform.Rotate(new Vector3 (0,0 , -CorrectedRPM*5.13f));
-		elements.StarterGear2.transform.Rotate(new Vector3 (0,0 , CorrectedRPM*4.8f));
+		//elements.StarterGear1.transform.Rotate(new Vector3 (0,0 , -CorrectedRPM*5.13f));
+		//elements.StarterGear2.transform.Rotate(new Vector3 (0,0 , CorrectedRPM*4.8f));
 
-		elements.TurboFan.transform.Rotate (new Vector3 (0, 0, CorrectedRPM));
+		//elements.TurboFan.transform.Rotate (new Vector3 (0, 0, CorrectedRPM));
 
 		elements.DistributorGear.transform.Rotate (new Vector3 (0, 0, -CorrectedRPM));
 
